@@ -33,54 +33,7 @@ It allows users to earn wallet balance through referrals, spend wallet balance d
 
 ---
 
-## 📂 Folder Structure
 
-wallet-referral-backend/
-├─ Backend/
-│  ├─ config/
-│  │   └─ db.js
-│  │
-│  ├─ controllers/
-│  │   ├─ adminAuthController.js
-│  │   ├─ authController.js
-│  │   ├─ paymentController.js
-│  │   └─ walletController.js
-│  │
-│  ├─ middlewares/
-│  │   ├─ adminMiddleware.js
-│  │   └─ authMiddleware.js
-│  │
-│  ├─ models/
-│  │   ├─ User.js
-│  │   ├─ Wallet.js
-│  │   ├─ WalletTransaction.js
-│  │   └─ WalletConfig.js
-│  │
-│  ├─ routes/
-│  │   ├─ adminAuthRoutes.js
-│  │   ├─ authRoutes.js
-│  │   ├─ paymentRoutes.js
-│  │   └─ walletRoutes.js
-│  │
-│  ├─ services/
-│  │   ├─ referralService.js
-│  │   └─ walletService.js
-│  │
-│  ├─ utils/
-│  │   └─ referralCodeGenerator.js
-│  │
-│  ├─ validations/
-│  │   ├─ adminValidation.js
-│  │   └─ authValidation.js
-│  │
-│  ├─ app.js
-│  └─ server.js
-│
-├─ .gitignore
-├─ package.json
-├─ package-lock.json
-├─ README.md
-└─ (❗ DO NOT PUSH `.env`)
 
 ---
 
