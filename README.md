@@ -1,3 +1,13 @@
+## 🚀 Live API
+
+Base URL:
+https://wallet-management-2.onrender.com
+
+Test endpoint:
+https://wallet-management-2.onrender.com/api/test
+
+This confirms the Wallet backend service is running successfully.
+
 # Wallet & Referral Backend Project
 # 💳 Wallet & Referral Management System (Node.js + MongoDB)
 
@@ -61,14 +71,6 @@ http://localhost:5000
 ## Authentication the headers to protect the API
 Authorization: Bearer <your_token_here>
 
-## 🚀 Live API
 
-Base URL:
-https://wallet-management-2.onrender.com
-
-Test endpoint:
-https://wallet-management-2.onrender.com/api/test
-
-This confirms the Wallet backend service is running successfully.
 
 
