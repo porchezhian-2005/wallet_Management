@@ -18,7 +18,14 @@ app.use(express.json());
 app.get("/api/test", (req, res) => {
   res.json({
     status: "success",
-    message: "Wallet API is running 🚀"
+    message: "Wallet API is running "
+  });
+});
+
+app.get("/", (req, res) => {
+  res.json({
+    status: "success",
+    message: "Wallet Service is ready to go"
   });
 });
 

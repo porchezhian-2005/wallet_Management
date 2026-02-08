@@ -6,6 +6,7 @@ const PORT = process.env.PORT || 5000;
 connectDB()
   .then(() => {
     console.log(" MongoDB connected successfully");
+    
 
     app.listen(PORT, () => {
       console.log(` Wallet API server running on port ${PORT}`);
